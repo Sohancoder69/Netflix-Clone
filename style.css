@@ -23,11 +23,9 @@ body {
 nav {
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 10px 0;
 }
-
-
 
 .logo {
   width: 150px;
@@ -52,7 +50,7 @@ nav button {
   align-items: center;
   background: transparent;
   border: 1px solid #fff;
-  padding: 7px 10px;
+  padding: 6px 10px;
 }
 
 .language-btn img {
@@ -95,6 +93,10 @@ nav button {
   margin-left: 60px;
 }
 
+.translate {
+  margin-right: 10px;
+}
+
 .email-signup input {
   flex: 1;
   border: 0.1mm solid rgba(255, 245, 238, 0.664);
@@ -102,13 +104,13 @@ nav button {
   background: transparent;
   backdrop-filter: blur(4px);
   --webkit-backdrop-filter: blur(1px)
-  }
+}
 
 .email-signup button {
   background: hsl(0, 90%, 48%);
   border-radius: 4px;
   height: 50%;
-  width: 35%;
+  width: 40%;
   border: 0;
   outline: 0;
   color: #fff;
@@ -125,13 +127,79 @@ nav button {
 }
 
 .right {
-  width: 10px;
-  height: 18px;
-  margin-top: 3px;
-  opacity: 200%;
+  width: 12%;
 }
 
 .email {
   display: flex;
-  justify-content:end;
+  justify-content: end;
+}
+
+.trending-section {
+  position: absolute;
+  right: 50%;
+  margin-top: 25px;
+}
+
+.trending-section h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.trend-now {
+  position: relative;
+  left: 10rem;
+}
+
+.trend-select{
+  position: relative;
+  left: 10rem;
+}
+
+.row {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  flex-wrap: nowrap;
+  position: relative;
+  left: 32%;
+  margin-top: 25px;
+}
+
+.kalki {
+  border-radius: 1.2rem;
+}
+
+.hassena {
+  border-radius: 1.2rem;
+}
+
+.indian {
+  border-radius: 1.2rem;
+}
+
+.maharaja{
+  border-radius: 1.2rem;
+}
+
+.union {
+  border-radius: 1.2rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column
+}
+
+.more {
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: relative;
+  left: 30%;
+
+}
+
+.Feature-Tv {
+  color: white;
+  background-color: rgb(26, 18, 82);
 }
