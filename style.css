@@ -151,9 +151,18 @@ nav button {
   left: 10rem;
 }
 
-.trend-select{
+.trend-select {
   position: relative;
   left: 10rem;
+}
+
+.trend-select select {
+  background: transparent;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 15px;
+  backdrop-filter: blur(4px);
+  --webkit-backdrop-filter: blur(1px)
 }
 
 .row {
@@ -178,7 +187,7 @@ nav button {
   border-radius: 1.2rem;
 }
 
-.maharaja{
+.maharaja {
   border-radius: 1.2rem;
 }
 
@@ -196,10 +205,14 @@ nav button {
   font-weight: 500;
   position: relative;
   left: 30%;
-
 }
 
 .Feature-Tv {
   color: white;
   background-color: rgb(26, 18, 82);
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 50%;
+  width: 50%;
 }
