@@ -32,6 +32,13 @@ nav {
   cursor: pointer;
 }
 
+nav select {
+  padding: 4px 20px;
+  color: white;
+  background: transparent;
+  border-radius: 5px;
+}
+
 nav button {
   border: 0;
   outline: 0;
@@ -196,20 +203,41 @@ nav button {
 }
 
 .features {
-  display: flex;
-  flex-direction: column
-}
-
-.more {
-  font-size: 1.5rem;
-  font-weight: 500;
+  padding: 10px 20px;
   position: relative;
-  left: 30%;
+  top: 5%;
+  left: 50%;
 }
 
+.features h2{
+  margin-top: 45px;
+}
+
+.features .featured-cards {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.features .featured-cards .item {
+  padding: 10px 8px;
+  width: 232px;
+  min-width: 140px;
+  background: linear-gradient( to right, #030244, #0f0ca3);
+  border-radius: 10px;
+}
+  
+.features .featured-cards .item .item-content {
+ width: 100%;
+}
+
+.features .featured-cards .item .item-content svg {
+  margin-left: 60%;
+ }
+ 
+ 
 .Feature-Tv {
   color: white;
-  background-color: rgb(26, 18, 82);
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
